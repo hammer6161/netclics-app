@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
@@ -8,4 +9,4 @@ import { Component, signal } from '@angular/core';
 })
 export class App {
 	
-}
+} 
