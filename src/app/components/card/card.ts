@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Film } from '../../models/film.models';
 
 
 @Component({
@@ -8,5 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './card.css'
 })
 export class Card {
-	@Input() title: string = ''
+	@Input() film!: Film
 }

@@ -1,6 +1,10 @@
+:host {
+	width: calc((100% - 60px) / 3);
+}
+
 .content-cards__item {
 	color: rgba(0, 0, 0, 1);
-	width: calc((100% - 60px) / 3);
+	width: 100%; 
 	text-decoration: none;
 }
 
@@ -54,13 +58,13 @@
 }
 
 @media(max-width:991px) {
-	.content-cards__item {
-		width: calc((100% - 30px) / 2);
-	}
+	:host {
+	width: calc((100% - 30px) / 2);
+}
 }
 
 @media(max-width:480px) {
-	.content-cards__item {
+	:host {
 		width: 100%;
 	}
 }
